@@ -1,0 +1,118 @@
+@import '~antd/dist/antd.css';
+@import '~normalize.css/normalize.css';
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+ul, ul li {
+  list-style: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/*---- Custom Antdesign CSS for page design */
+
+.ant-page-header-footer {
+  margin-bottom: 25px;
+}
+
+.p-l-30 {
+  padding-left: 30px;
+}
+
+.p-r-30 {
+  padding-right: 30px;
+}
+
+.p-30 {
+  padding: 30px;
+}
+
+.p-lr-54 {
+  padding: 0px 54px;
+}
+
+.m-r-15 {
+  margin-right: 15px;
+}
+
+.m-l-10 {
+  margin-left: 10px;
+}
+
+.position-static {
+  position: static;
+}
+
+.show-more-block {
+  text-align: center;
+  margin-top: 12px;
+  height: 32px;
+  line-height: 32px;
+}
+
+.last-item-next-row {
+  flex-wrap: wrap;
+}
+
+.last-item-next-row::after {
+  content: '';
+  width: 100%;
+}
+
+.order-1 {
+  order: 1;
+}
+
+.ant-list-item-meta-title {
+  font-size: 19px;
+}
+
+@media only screen and (max-width : 640px) {
+  .p-lr-md-0 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .p-lr-md-24 {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .m-l-md-0 {
+    margin-left: 0px;
+  }
+}
